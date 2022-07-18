@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Polaroid</title>
+</head>
+<style>
+
+    .container {
+        width: auto;
+        margin: auto 15%;
+    }
+
+    h2{
+        font-size: 25px;
+        font-weight: bold;
+        margin-left: 15%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .polaroid {
+
+        margin: 10px; 
+        width: 270px;
+        float: left;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 10, 10.19);
+
+    }
+
+
+    img {
+        width: 250px;
+        height: 250px;
+        padding: 10px;
+    }
+
+
+    .container2 {
+        text-align: center;
+        padding: 10px;
+    }
+
+
+    body {
+        background-color: tan;
+    }
+
+    .pola_text {
+        font-size: 15px;
+        color: brown;
+        font-weight: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+  .clearfix::after {
+        content: " ";
+        display: table;
+        clear: both;
+
+    }
+
+
+
+    @media screen and (max-width: 992px) {
+        body {
+            background-color: rgb(9, 183, 226);
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        body {
+            background-color: olive;
+        }
+    }
+</style>
+
+<body>
+    <h2>Polaroid</h2>
+
+   <div class="container">
+
+    <div class="polaroid">
+        <a target="_blank" href="img/kantsubaki.jpg">
+            <img src="img/kantsubaki.jpg" alt="kantsubaki">
+        </a>
+        <div class="container2">
+            <p class="pola_text">寒　椿</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <a target="_blank" href="img/sakura1.jpg">
+            <img src="img/sakura1.jpg" alt="sakura1">
+        </a>
+        <div class="container2">
+            <p class="pola_text">陽光と桜</p>
+        </div>
+    </div>
+
+    <div class="polaroid">
+        <a target="_blank" href="img/sakura2.jpg">
+            <img src="img/sakura2.jpg" alt="sakura2">
+        </a>
+        <div class="container2">
+            <p class="pola_text">桜と外堀</p>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+</body>
+
+</html>
